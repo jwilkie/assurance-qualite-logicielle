@@ -3,7 +3,7 @@
  */
 const nextConfig = {
     reactStrictMode: true,
-    basePath: '/assurance-qualite-logicielle',
+    // basePath: '/assurance-qualite-logicielle',
     output: 'export',
     images: {
         unoptimized: true
