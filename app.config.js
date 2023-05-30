@@ -1,18 +1,14 @@
 import vs from 'react-syntax-highlighter/dist/cjs/styles/prism/vs'
 import vsdark from 'react-syntax-highlighter/dist/cjs/styles/prism/vsc-dark-plus'
-import html from 'react-syntax-highlighter/dist/cjs/languages/prism/markup'
-import css from 'react-syntax-highlighter/dist/cjs/languages/prism/css'
-import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript'
+import csharp from 'react-syntax-highlighter/dist/cjs/languages/prism/csharp'
 
 const appConfig = {
-    domain: 'https://jwilkie.github.io/website-template',
-    title: 'Programmation Web Serveur',
+    domain: 'https://jwilkie.github.io/assurance-qualite-logicielle',
+    title: 'Assurance qualité logicielle',
     sectionName: 'module',
     code: {
         languages: {
-            html, 
-            css, 
-            js
+            'C#': csharp,
         },
         themes: {
             light: vs,

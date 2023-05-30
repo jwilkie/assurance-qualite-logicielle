@@ -1,7 +1,6 @@
 {
-    "title": "Titre de module",
-    "description": "Description de module",
-    "pages": [
-
-    ]
+    "title": "Compétence de débogage",
+    "description": "Discussion sur les compétences et logiques de débogage. Présentation des types d'erreurs et des erreurs fréquemments rencontrées.",
+    "disabled": true,
+    "pages": []
 }

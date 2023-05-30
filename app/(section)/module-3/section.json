@@ -1,8 +1,6 @@
 {
-    "title": "Titre de module",
-    "description": "Description de module",
+    "title": "Stratégies de refactorisation",
+    "description": "Présentation de différents outils et stratégies de refactorisation du code source pour accélérer l'écriture et la modification du code.",
     "disabled": true,
-    "pages": [
-
-    ]
+    "pages": []
 }

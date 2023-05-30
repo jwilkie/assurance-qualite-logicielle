@@ -1,8 +1,11 @@
 {
-    "title": "Module 1",
-    "description": "Description de module",
+    "title": "Organiser ses données et son code source",
+    "description": "Discussion des bénéfices de l'organisation et de l'écriture propre du code source. Utilisation du Cloud pour garder ses données et projets.",
     "pages": [
-        "test2",
-        "lab-01"
+        "introduction",
+        "benefice",
+        "cloud",
+        "lab-discussion",
+        "lab-cloud"
     ]
 }

@@ -11,12 +11,12 @@
     display: inline-block;
 }
 
-.logo .title span:first-child {
-    font-size: 1rem;
+.logo .title div:first-child {
+    font-size: .9rem;
 }
 
-.logo .title span:last-child {
-    font-size: 1.4rem;
+.logo .title div:last-child {
+    font-size: 1.7rem;
 }
 
 .logo .number {
