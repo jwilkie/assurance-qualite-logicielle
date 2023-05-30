@@ -27,7 +27,7 @@ async function getSectionPages(section) {
 
     // Remove pages with no metadata
     let pages = (await Promise.all(promises))
-        .filter((page) => Object.keys(page).length > 1);
+        .filter((page) => Object.keys(page).length > 3);
 
     return pages
 }

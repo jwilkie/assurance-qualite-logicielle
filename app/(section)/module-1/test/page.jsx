@@ -10,12 +10,12 @@ import YoutubeVideo from "@/components/YoutubeVideo";
 /**
  * @type {import("next").Metadata}
  */
-// export const metadata = {
-//     title: "Test couleur",
-//     description: "Test de couleur.",
-//     keywords: ["test", "couleur"],
-//     group: "labs"
-// }
+export const metadata = {
+    title: "Test couleur",
+    description: "Test de couleur.",
+    keywords: ["test", "couleur"],
+    group: "labs"
+}
 
 const js = 
 `let chaine = 'Une chaine';
