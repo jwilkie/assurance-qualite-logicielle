@@ -5,18 +5,26 @@ import { basePath } from '@/next.config';
 export default function usePathnameWithoutBasepath() {
     const pathname = usePathname();
     
-    const getPathnameWithoutBasepath = () => {
+    const getCleanPathname = () => {
+        let cleanPathname = pathname;
+
+        // Remove basepath
         if(basePath) {
-            return pathname.substring(basePath.length);
+            cleanPathname = cleanPathname.substring(basePath.length);
         }
 
-        return pathname;
+        // Remove trailing slash
+        if(cleanPathname.at(-1) === '/'){
+            cleanPathname = cleanPathname.substring(0, cleanPathname.length - 1);
+        }
+
+        return cleanPathname;
     }
 
-    const [pathnameWithoutBasepath, setPathnameWithoutBasepath] = useState(getPathnameWithoutBasepath());
+    const [pathnameWithoutBasepath, setPathnameWithoutBasepath] = useState(getCleanPathname());
 
     useEffect(() => {
-        setPathnameWithoutBasepath(getPathnameWithoutBasepath())
+        setPathnameWithoutBasepath(getCleanPathname())
     }, [pathname]);
 
     return pathnameWithoutBasepath;
