@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { basePath } from '@/next.config';
 
-export default function usePathnameWithoutBasepath() {
+export default function useCleanPathname() {
     const pathname = usePathname();
     
     const getCleanPathname = () => {
