@@ -26,14 +26,23 @@ export default function useCurrentPage(sections, groups) {
     }
 
     const getCurrentPage = (section, group) => {
-        if (section && pathname.startsWith(`/${section.slug}/`)) {
+        // Remove trailing slash if any
+        let pathnameNoTrail = null;
+        if(pathname.at(-1) === '/'){
+            pathnameNoTrail = pathname.substring(0, pathname.length - 1)
+        }
+        else {
+            pathnameNoTrail = pathname
+        }
+
+        if (section && pathnameNoTrail.startsWith(`/${section.slug}/`)) {
             // We are in a section's page
-            let pageSlug = pathname.substring(pathname.lastIndexOf('/') + 1);
+            let pageSlug = pathnameNoTrail.substring(pathnameNoTrail.lastIndexOf('/') + 1);
             return section.pages.find((page) => page.slug === pageSlug);
         }
-        else if (group && pathname.startsWith(`/group/${group.slug}/`)) {
+        else if (group && pathnameNoTrail.startsWith(`/group/${group.slug}/`)) {
             // We are in a group's page
-            let pageSlug = pathname.substring(pathname.lastIndexOf('/') + 1);
+            let pageSlug = pathnameNoTrail.substring(pathnameNoTrail.lastIndexOf('/') + 1);
             return group.pages.find((page) => page.slug === pageSlug);
         }
         else {
