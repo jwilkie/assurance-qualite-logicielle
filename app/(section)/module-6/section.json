@@ -1,6 +1,6 @@
 {
-    "title": "Stratégies de débogage",
-    "description": "Présentation de techniques simples et efficaces pour rechercher ou identifier les erreurs dans le code source.",
+    "title": "Débogueurs",
+    "description": "Démonstration de l'utilisation d'outils pour identifier et trouver les bogues et erreurs dans le code source.",
     "disabled": true,
     "pages": []
 }

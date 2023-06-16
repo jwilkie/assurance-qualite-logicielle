@@ -1,6 +1,6 @@
 {
-    "title": "Compétence de débogage",
-    "description": "Discussion sur les compétences et logiques de débogage. Présentation des types d'erreurs et des erreurs fréquemments rencontrées.",
+    "title": "Compétence et stratégie de débogage",
+    "description": "Discussion sur les compétences et logiques de débogage. Présentation des types d'erreurs, des erreurs fréquemments rencontrées ainsi des techniques simples et efficaces pour rechercher ou identifier les erreurs dans le code source.",
     "disabled": true,
     "pages": []
 }

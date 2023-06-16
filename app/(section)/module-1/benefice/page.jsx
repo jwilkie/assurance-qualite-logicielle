@@ -10,6 +10,8 @@ export const metadata = {
 
 export default function Page() {
     return <>
-        
+        <section>
+            <h2></h2>
+        </section>
     </>;
 }
