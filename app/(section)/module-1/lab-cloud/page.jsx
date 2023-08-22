@@ -17,10 +17,10 @@ export default function Page() {
                     Choisissez un service cloud pour faire vos backups de fichier. Je vous suggère One Drive, iCloud ou Google Drive.
                 </li>
                 <li>
-                    Installer le service cloud si c'est nécessaire.
+                    Installer le service cloud si c&apos;est nécessaire.
                 </li>
                 <li>
-                    Créez-vous un compte sur le service cloud si ce n'est pas déjà fait.
+                    Créez-vous un compte sur le service cloud si ce n&apos;est pas déjà fait.
                 </li>
                 <li>
                     Ajoutez un fichier dans le service cloud à partir de votre ordinateur pour tester que tout fonctionne bien.

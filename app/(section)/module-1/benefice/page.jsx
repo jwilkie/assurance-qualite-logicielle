@@ -13,8 +13,8 @@ export default function Page() {
         <section>
             <h2>Bon code source</h2>
             <p>
-                Il semble tout à fait normal et évident qu'un programmeur soient en mesure de bien écrire un code source. Ceci étant dit, 
-                un bon code source est définitivement subjectif. Plusieurs programmeurs pourraient avoir des visions différentes d'un bon 
+                Il semble tout à fait normal et évident qu&apos;un programmeur soient en mesure de bien écrire un code source. Ceci étant dit, 
+                un bon code source est définitivement subjectif. Plusieurs programmeurs pourraient avoir des visions différentes d&apos;un bon 
                 code source. Le marché du travail et la communauté internationale des programmeurs a toutefois défini différentes règles, qui
                 même si elles ne sont pas tout à fait claire et précise, devrait être respecté par tout programmeur qui veut avoir un emploi 
                 ou travailler sur des projets à source ouvert pour la communauté. Nous verrons plusieurs de ces règles dans les prochains 
@@ -25,7 +25,7 @@ export default function Page() {
                     Mettre des commentaires dans le code.
                 </li>
                 <li>
-                    Écrire un code similaire d'un programmeur à l'autre dans l'équipe.
+                    Écrire un code similaire d&apos;un programmeur à l&apos;autre dans l&apos;équipe.
                 </li>
                 <li>
                     Écrire de la documentation du code.
@@ -35,8 +35,8 @@ export default function Page() {
                 </li>
             </ul>
             <p>
-                Ce genre de pratique peut être légèrement différente d'un milieu de travail à l'autre, mais sera très similaire. Tout les 
-                programmeur doivent se conformer aux standards de l'endroit où il travail. Dans un cas où les règles ne sont pas claire et 
+                Ce genre de pratique peut être légèrement différente d&apos;un milieu de travail à l&apos;autre, mais sera très similaire. Tout les 
+                programmeur doivent se conformer aux standards de l&apos;endroit où il travail. Dans un cas où les règles ne sont pas claire et 
                 défini, les règles générales vues dans ce cours doivent être appliquées.
             </p>
         </section>
@@ -51,7 +51,7 @@ export default function Page() {
                     Facilité et rapidité à maintenir et mettre à jour le code.
                 </li>
                 <li>
-                    Facilité et rapidité d'intégration de nouveaux programmeurs à un projet.
+                    Facilité et rapidité d&apos;intégration de nouveaux programmeurs à un projet.
                 </li>
                 <li>
                     Facilité à partager du code.
