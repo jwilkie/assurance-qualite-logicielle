@@ -14,9 +14,9 @@ export default function Page() {
             <h2>Visual Studio Code</h2>
             <p>
                 Ce cours ne demande pas que vous écriviez du code complexe ou des gros projet. Ceci étant dit, nous aurons 
-                besoin de modifier du code source. Pour ce faire, je vous recommande d'installer Visual Studio Code. Visual 
-                Studio Code, aussi appelé VSCode ou Code et un petit éditeur de code très puissant qui peut être étendu à l'aide 
-                d'extension. Selon les plus récentes statistiques, Visual Studio Code est présentement l'éditeur de code le plus 
+                besoin de modifier du code source. Pour ce faire, je vous recommande d&apos;installer Visual Studio Code. Visual 
+                Studio Code, aussi appelé VSCode ou Code et un petit éditeur de code très puissant qui peut être étendu à l&apos;aide 
+                d&apos;extension. Selon les plus récentes statistiques, Visual Studio Code est présentement l&apos;éditeur de code le plus 
                 utilisé sur le marché du travail.
             </p>
         </section>
@@ -34,7 +34,7 @@ export default function Page() {
                     Installer Visual Studio Code.
                 </li>
                 <li>
-                    Lors de l'installation, cochez les cases à cocher pour ajouter Visual Studio Code au menu contextuel.
+                    Lors de l&apos;installation, cochez les cases à cocher pour ajouter Visual Studio Code au menu contextuel.
                 </li>
             </ol>
         </section>

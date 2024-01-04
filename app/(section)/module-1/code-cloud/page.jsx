@@ -23,7 +23,7 @@ export default function Page() {
             </p>
             <p>
                 Pour les petits projets simples, vous pouvez simplement mettre le code dans votre service cloud. Si votre projet 
-                est un peu plus complexe, je vous recommande donc une certaine approche pour éviter d'avoir des problèmes.
+                est un peu plus complexe, je vous recommande donc une certaine approche pour éviter d&apos;avoir des problèmes.
             </p>
         </section>
 
@@ -49,7 +49,7 @@ export default function Page() {
         <section>
             <h2>Backup</h2>
             <p>
-                Si votre projet n'est pas sur le cloud, il n'a probablement pas de backup. Je vous recommande donc de le copier 
+                Si votre projet n&apos;est pas sur le cloud, il n&apos;a probablement pas de backup. Je vous recommande donc de le copier 
                 sur votre service de cloud de temps en temps. Assurez-vous toutefois de ne pas travailler sur la version qui est 
                 sur le cloud pour éviter les problèmes de synchronisation. Une bonne approche est la suivante:
             </p>
@@ -60,7 +60,7 @@ export default function Page() {
                 venez de travailler.
             </p>
             <p>
-                Bref, vous travaillez toujours dans le dossier qui n'est pas dans le cloud et vous sauvegardez toujours votre 
+                Bref, vous travaillez toujours dans le dossier qui n&apos;est pas dans le cloud et vous sauvegardez toujours votre 
                 projet dans le cloud lorsque vous avez terminé.
             </p>
         </section>

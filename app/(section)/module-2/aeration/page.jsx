@@ -68,31 +68,31 @@ export default function Page() {
         <section>
             <h2>Retour de ligne</h2>
             <p>
-                Il est généralement préférable de mettre quelques lignes vide dans le code source pour qu'il ne soit pas trop collé, ce qui 
-                est généralement plus difficile à lire. Vous devez obligatoirement mettre des lignes vide dans le code pour l'aérer. Pour 
+                Il est généralement préférable de mettre quelques lignes vide dans le code source pour qu&apos;il ne soit pas trop collé, ce qui 
+                est généralement plus difficile à lire. Vous devez obligatoirement mettre des lignes vide dans le code pour l&apos;aérer. Pour 
                 savoir où mettre ces lignes vides, utilisez le guide suivant:
             </p>
             <ul>
                 <li>
-                    Ajoutez une ligne vide après une fermeture de bloc <IC>{'{ ... }'}</IC>. Dans l'exemple ci-dessous, notez la ligne vide 
+                    Ajoutez une ligne vide après une fermeture de bloc <IC>{'{ ... }'}</IC>. Dans l&apos;exemple ci-dessous, notez la ligne vide 
                     ajouté après la fermeture du bloc <IC>if</IC>. Ces lignes vides doivent aussi être ajouté après les blocs des boucles, 
                     des classes, switch/case ou tout autre élément du langage de programmation utilisant des blocs de code.
                     <CodeBlock language="csharp">{bloc}</CodeBlock>
                     Il y a toutefois une exception à cette règle. Vous ne devez pas mettre de ligne vide entre deux fermetures de bloc qui 
-                    sont l'une après l'autre. Dans l'exemple ci-dessous, notez qu'il n'y a pas de ligne vide entre la fermeture 
+                    sont l&apos;une après l&apos;autre. Dans l&apos;exemple ci-dessous, notez qu&apos;il n&apos;y a pas de ligne vide entre la fermeture 
                     du <IC>if</IC> et de la boucle <IC>for</IC>.
                     <CodeBlock language="csharp">{blocException}</CodeBlock>
                 </li>
                 <li>
-                    Ajoutez une ligne vide après toute série d'instructions qui se distingue des lignes suivantes. Ces lignes vide sont un 
-                    peu subjective d'un programmeur à l'autre, mais sont essentielle à la compréhension du code pour bien regrouper les 
-                    lignes ayant un sens similaire. Dans l'exemple ci-dessous, notez bien la ligne vide entre les lignes permettant de 
+                    Ajoutez une ligne vide après toute série d&apos;instructions qui se distingue des lignes suivantes. Ces lignes vide sont un 
+                    peu subjective d&apos;un programmeur à l&apos;autre, mais sont essentielle à la compréhension du code pour bien regrouper les 
+                    lignes ayant un sens similaire. Dans l&apos;exemple ci-dessous, notez bien la ligne vide entre les lignes permettant de 
                     calculer la somme et les lignes utilisant la somme.
                     <CodeBlock language="csharp">{groupe}</CodeBlock>
                 </li>
                 <li>
                     Ajoutez une ligne vide avant chaque commentaire de ligne à moins que celui-ci se retrouve en début de bloc. Dans 
-                    l'exemple ci-dessous, notez la ligne vide juste avant le commentaire au milieu du bloc et l'absence de ligne vide avant 
+                    l&apos;exemple ci-dessous, notez la ligne vide juste avant le commentaire au milieu du bloc et l&apos;absence de ligne vide avant 
                     le commentaire en début de bloc. 
                     <CodeBlock language="csharp">{commentaire}</CodeBlock>
                 </li>
@@ -102,9 +102,9 @@ export default function Page() {
         <section>
             <h2>À éviter</h2>
             <p>
-                Bien que l'aération du code soit bien pour la lisibilité du code, il est facile de s'emporter et d'en ajouter trop. Évitez 
-                d'ajouter des lignes vides autre que pour les situations mentionnées ci-dessus. De plus, évitez de mettre plusieurs lignes 
-                vide de suite comme l'exemple ci-dessous. C'est une mauvaise pratique. Une seule ligne vide à la fois est nécessaire.
+                Bien que l&apos;aération du code soit bien pour la lisibilité du code, il est facile de s&apos;emporter et d&apos;en ajouter trop. Évitez 
+                d&apos;ajouter des lignes vides autre que pour les situations mentionnées ci-dessus. De plus, évitez de mettre plusieurs lignes 
+                vide de suite comme l&apos;exemple ci-dessous. C&apos;est une mauvaise pratique. Une seule ligne vide à la fois est nécessaire.
             </p>
             <CodeBlock language="csharp">{multiple}</CodeBlock>
         </section>

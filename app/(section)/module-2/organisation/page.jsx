@@ -15,12 +15,12 @@ export default function Page() {
         <section>
             <h2>Types de projets</h2>
             <p>
-                L'organisation d'un projet dépendra grandement de son type et des langages de programmation utilisé. Un projet d'application 
-                web ou un projet d'application mobile n'utilisera pas les mêmes langages de programmation et la même structure de projet.
-                Vous devrez donc suivre une structure différente dépendant du type d'application.
+                L&apos;organisation d&apos;un projet dépendra grandement de son type et des langages de programmation utilisé. Un projet d&apos;application 
+                web ou un projet d&apos;application mobile n&apos;utilisera pas les mêmes langages de programmation et la même structure de projet.
+                Vous devrez donc suivre une structure différente dépendant du type d&apos;application.
             </p>
             <p>
-                Assurez-vous de suivre l'organisation spécifié par votre type de projet. Une structure de projet qui suit les standards est 
+                Assurez-vous de suivre l&apos;organisation spécifié par votre type de projet. Une structure de projet qui suit les standards est 
                 beaucoup plus facile à comprendre par les autres programmeurs et nécessite généralement moins de configurations.
             </p>
         </section>
@@ -28,7 +28,7 @@ export default function Page() {
         <section>
             <h2>Conseil général</h2>
             <p>
-                Voici quelques conseils généraux pour l'organisation de vos projets:
+                Voici quelques conseils généraux pour l&apos;organisation de vos projets:
             </p>
             <ul>
                 <li>
@@ -36,7 +36,7 @@ export default function Page() {
                     standard du langage de programmation le demande.
                 </li>
                 <li>
-                    Si votre application est composé de plusieurs systèmes ou couche d'exécution, séparé-les dans leur propre répertoire.
+                    Si votre application est composé de plusieurs systèmes ou couche d&apos;exécution, séparé-les dans leur propre répertoire.
                 </li>
                 <li>
                     Organisez les fichiers de code source dans différents répertoires si vous en avez beaucoup. Assurez-vous que votre 
@@ -47,7 +47,7 @@ export default function Page() {
                     répertoire.
                 </li>
                 <li>
-                    Le fichier principal du programme (main, point d'entrée) va généralement être à la racine du projet.
+                    Le fichier principal du programme (main, point d&apos;entrée) va généralement être à la racine du projet.
                 </li>
             </ul>
         </section>

@@ -13,13 +13,13 @@ export const metadata = {
 export default function Page() {
     return <>
         <p>
-            Comme vu au dernier module, le respect des conventions d'écriture de code pour écrire un bon code source est très important. Il y
+            Comme vu au dernier module, le respect des conventions d&apos;écriture de code pour écrire un bon code source est très important. Il y
             a de nombreux bénéfice à les suivre et à faire en sorte que nos collègues de travail les suivent aussi. Dans ce module, nous
-            aborderons spécifiquement les différents types de convention d'écriture de code et comment les suivre. 
+            aborderons spécifiquement les différents types de convention d&apos;écriture de code et comment les suivre. 
         </p>
         <p>
-            Les conventions d'écriture de code peuvent être légèrement différentes d'un langage de programmation à l'autre ou même d'une 
-            entreprise à l'autre. Lorsque vous travaillez à un nouvel endroit, je vous recommande de vérifier quel genre de conventions est 
+            Les conventions d&apos;écriture de code peuvent être légèrement différentes d&apos;un langage de programmation à l&apos;autre ou même d&apos;une 
+            entreprise à l&apos;autre. Lorsque vous travaillez à un nouvel endroit, je vous recommande de vérifier quel genre de conventions est 
             utilisé. Le module ici vous proposera les conventions génériques. 
         </p>
         <ColoredBox title="Attention">

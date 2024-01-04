@@ -76,24 +76,24 @@ export default function Page() {
         <section>
             <h2>Hard code</h2>
             <p>
-                Ce qu'on appelle le hard code, est le principe où l'on utilise une donnée ou valeur fixe directement dans le code sans 
+                Ce qu&apos;on appelle le hard code, est le principe où l&apos;on utilise une donnée ou valeur fixe directement dans le code sans 
                 vraiment avoir de référence à celle-ci, ce qui la rend difficile à modifier à long terme. Voici un exemple:
             </p>
             <CodeBlock language="csharp">{hardcode}</CodeBlock>
             <p>
                 Dans cet exemple, nous avons 3 valeurs hard codé, soit la valeur initiale du score à <IC>0</IC>, la valeur de gain de 
-                points qui augmente de <IC>10</IC> pour des actions positive et la valeur de perte de score de <IC>15</IC> lors d'action 
+                points qui augmente de <IC>10</IC> pour des actions positive et la valeur de perte de score de <IC>15</IC> lors d&apos;action 
                 négative. Ces 3 valeurs causes certains problèmes dans notre programme:
             </p>
             <ul>
                 <li>
                     Si on veut modifier la valeur de gain ou de perte de points, on doit les modifier manuellement partout dans le code. Ce 
-                    n'est pas très pratique, surtout dans les gros programmes avec plusieurs fichiers volumineux. Ce qui semble être un 
+                    n&apos;est pas très pratique, surtout dans les gros programmes avec plusieurs fichiers volumineux. Ce qui semble être un 
                     petite modification peut devenir un très long travail.
                 </li>
                 <li>
                     Le code peut devenir plus difficile à comprendre pour un autre programmeur. En effet, on ne sait pas si les valeurs de 
-                    gain ou de perte de points sont obligé d'être le même pour toutes les actions. 
+                    gain ou de perte de points sont obligé d&apos;être le même pour toutes les actions. 
                 </li>
             </ul>
         </section>
@@ -101,18 +101,18 @@ export default function Page() {
         <section>
             <h2>Extraire dans une constante</h2>
             <p>
-                La solution pour palier à nos problèmes de hard code est d'utiliser des constantes. Toute valeur fixe dans votre code qui est 
+                La solution pour palier à nos problèmes de hard code est d&apos;utiliser des constantes. Toute valeur fixe dans votre code qui est 
                 répétée devrait être isolée dans une constante pour faciliter la réutilisation.
             </p>
             <CodeBlock language="csharp">{constante}</CodeBlock>
             <p>
-                La solution ci-dessus est élégante. Elle nous permet de modifier la valeur à un seul endroit pour affecter l'ensemble du 
+                La solution ci-dessus est élégante. Elle nous permet de modifier la valeur à un seul endroit pour affecter l&apos;ensemble du 
                 code. De plus, elle est facile à comprendre si vous nommez bien vos constantes.
             </p>
             <p>
-                Vous noterez ici que l'on peut accepter un peu de hard code. Dans le cas ci-dessus, la valeur initiale de <IC>0</IC> donnée 
-                au score n'a pas été isolé dans une constante puisqu'on l'utilise à un seul endroit dans le code. Ceci étant dit, si nous 
-                devions l'utiliser ailleur, il serait probablement bénéfique de l'isoler dans une constante. 
+                Vous noterez ici que l&apos;on peut accepter un peu de hard code. Dans le cas ci-dessus, la valeur initiale de <IC>0</IC> donnée 
+                au score n&apos;a pas été isolé dans une constante puisqu&apos;on l&apos;utilise à un seul endroit dans le code. Ceci étant dit, si nous 
+                devions l&apos;utiliser ailleur, il serait probablement bénéfique de l&apos;isoler dans une constante. 
             </p>
             <CodeBlock language="csharp">{isoler}</CodeBlock>
         </section>

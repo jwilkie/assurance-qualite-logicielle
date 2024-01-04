@@ -71,7 +71,7 @@ export default function Page() {
         <section>
             <h2>Instructions</h2>
             <p>
-                Une instruction en programmation est une commande que l'on envoie à l'ordinateur. Elles se terminent généralement par un 
+                Une instruction en programmation est une commande que l&apos;on envoie à l&apos;ordinateur. Elles se terminent généralement par un 
                 point-virgule <IC>;</IC> dans les langages de programmation moderne.
             </p>
             <CodeBlock language="csharp">{'int instructionSimple = random.Next(1, 7);'}</CodeBlock>
@@ -89,7 +89,7 @@ export default function Page() {
         <section>
             <h2>Accolades et blocs</h2>
             <p>
-                La fermeture des blocs, généralement à l'aide d'accolades dans les langages modernes, doit se faire sur sa propre ligne. 
+                La fermeture des blocs, généralement à l&apos;aide d&apos;accolades dans les langages modernes, doit se faire sur sa propre ligne. 
                 Vous ne pouvez pas regrouper plusieurs fermetures sur la même ligne.
             </p>
             <CodeBlock language="csharp">{fermeture}</CodeBlock>
@@ -98,32 +98,32 @@ export default function Page() {
             </p>
             <CodeBlock language="csharp">{memeLigne}</CodeBlock>
             <p>
-                Pour ce qui est de l'ouverture des blocs, on voit généralement deux styles distincts. L'accolade sur la même ligne que 
-                l'instruction d'ouverture du bloc ou l'accolade sur la ligne suivante de l'instruction d'ouverture du bloc. Ces deux façons 
-                d'écrire sont accepté par la communauté des programmeurs. En C#, en général, on va utiliser l'accolade sur la ligne 
-                suivante. Dans les autres langages, on va généralement mettre l'accolade sur la même ligne.
+                Pour ce qui est de l&apos;ouverture des blocs, on voit généralement deux styles distincts. L&apos;accolade sur la même ligne que 
+                l&apos;instruction d&apos;ouverture du bloc ou l&apos;accolade sur la ligne suivante de l&apos;instruction d&apos;ouverture du bloc. Ces deux façons 
+                d&apos;écrire sont accepté par la communauté des programmeurs. En C#, en général, on va utiliser l&apos;accolade sur la ligne 
+                suivante. Dans les autres langages, on va généralement mettre l&apos;accolade sur la même ligne.
             </p>
             <CodeBlock language="csharp">{ouvertureCSharp}</CodeBlock>
             <CodeBlock language="csharp">{ouvertureJS}</CodeBlock>
         </section>
 
         <section>
-            <h2>Longueur d'une ligne</h2>
+            <h2>Longueur d&apos;une ligne</h2>
             <p>
                 Le nombre de caractère maximal dans une ligne de code est un sujet hautement débattu. Historiquement, les programmeurs se 
-                limitaient à 80 caractères maximum par ligne. Ceci étant dit, c'était dans un temps ou les écrans supportaient uniquement 
-                80 caractères de longueur et où les écrans étaient très petits. Les écrans sont beaucoup plus grand aujourd'hui et la 
-                plupart peuvent aisément supporter jusqu'à 130 caractères sans avoir besoin d'utiliser la barre de défilement.
+                limitaient à 80 caractères maximum par ligne. Ceci étant dit, c&apos;était dans un temps ou les écrans supportaient uniquement 
+                80 caractères de longueur et où les écrans étaient très petits. Les écrans sont beaucoup plus grand aujourd&apos;hui et la 
+                plupart peuvent aisément supporter jusqu&apos;à 130 caractères sans avoir besoin d&apos;utiliser la barre de défilement.
             </p>
             <p>
-                Je vous recommande d'utiliser votre jugement ici. En général, on ne veut pas utiliser la barre de défilement pour visualiser 
+                Je vous recommande d&apos;utiliser votre jugement ici. En général, on ne veut pas utiliser la barre de défilement pour visualiser 
                 le code, donc évitez toute ligne trop longue. Ceci étant dit, si vous utilisez un écran 4K, il est très possible que vous 
                 puissiez y mettre beaucoup plus de caractère. Dans ce cas-ci, pensez aux autres programmeurs qui devront lire votre code. 
-                Ils n'ont pas nécessairement un écran aussi grand que le votre.
+                Ils n&apos;ont pas nécessairement un écran aussi grand que le votre.
             </p>
             <p>
                 Si vous devez couper une instruction pour la mettre sur plusieurs ligne, coupez-là à des endroits logiques, par exemple lors 
-                d'utilisation de virgule <IC>,</IC>, de points <IC>.</IC> ou d'ouverture de paranthèse <IC>{'('}</IC>.
+                d&apos;utilisation de virgule <IC>,</IC>, de points <IC>.</IC> ou d&apos;ouverture de paranthèse <IC>{'('}</IC>.
             </p>
             <CodeBlock language="csharp">{couper}</CodeBlock>
         </section>
