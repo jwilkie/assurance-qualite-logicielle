@@ -44,6 +44,26 @@ const constante =
 `const int TAILLE_MAXIMALE = 800;
 const int CHOIX_FRUIT_BANANE = 3;`;
 
+const fonctionJS = 
+`function additionnerParam(x, y) {
+    // ...
+}`;
+
+const fonctionCSharp = 
+`public static int MultiplierParam(int x, int y) {
+    // ...
+}`;
+
+const classe = 
+`public class Client {
+    // ...
+}`;
+
+const inter = 
+`public interface ISurface {
+    // ...
+}`;
+
 export default function Page() {
     return <>
         <section>
@@ -110,14 +130,56 @@ export default function Page() {
         <section>
             <h2>Variables et constante</h2>
             <p>
-                Dans la majorité des langages de programmation moderne et encore utilisé, les noms de variable vont toujours utilisé le 
+                Dans la majorité des langages de programmation modernes et encore utilisés, les noms de variable vont toujours utiliser le 
                 Camel Case commençant par une lettre minuscule.
             </p>
             <CodeBlock language="csharp">{variable}</CodeBlock>
             <p>
-                Les constantes, quant à elles, utiliseront plutôt généralement le Snake Case en majuscule.
+                Les constantes, quant à elles, utiliseront généralement le Snake Case en majuscule.
             </p>
             <CodeBlock language="csharp">{constante}</CodeBlock>
+        </section>
+
+        <section>
+            <h2>Fonctions et méthodes</h2>
+            <p>
+                La casse utilisé par les fonctions et méthodes dépendent du langage de programmation. Le Camel Case commençant par une 
+                minuscule est généralement utilisé, mais certains langages, comme le C#, utilise le Camel Case de base. Dans tous les cas, 
+                une forme de Camel Case est utilisé.
+            </p>
+            <CodeBlock language="js">{fonctionJS}</CodeBlock>
+            <CodeBlock language="csharp">{fonctionCSharp}</CodeBlock>
+        </section>
+        
+        <section>
+            <h2>Classes et Interfaces</h2>
+            <p>
+                Les classes et interfaces, dans presque tous les langages de programmation modernes, utiliseront le Camel Case pour leur 
+                identifiant. Il est important de noter que les interfaces commenceront généralement par la lettre <IC>I</IC> pour bien 
+                indiquer que c'est une interface.
+            </p>
+            <CodeBlock language="csharp">{classe}</CodeBlock>
+            <CodeBlock language="csharp">{inter}</CodeBlock>
+        </section>
+
+        <section>
+            <h2>Noms significatifs</h2>
+            <p>
+                Lors du choix d'un nom pour un identifiant, il est très important de définir un nom clair et précis. La plupart des langages 
+                de programmation ne limitent pas le programmeur sur la taille d'un identifiant. Vous pouvez, par conséquent, être très 
+                précis dans son nommage.
+            </p>
+            <p>
+                À moins d'être dans la déclaration d'une boucle <IC>for</IC>, évitez les noms de variable courts 
+                comme <IC>a</IC>, <IC>b</IC> ou <IC>xx</IC>. Évitez les acronymes qui ne sont pas très connu 
+                comme <IC>itac</IC> ou <IC>pj1</IC>.
+            </p>
+            <p>
+                Utilisez plutôt des mots complets et clairs que vous utiliserez avec casse. N'hésitez pas à mettre un long nom de variable si 
+                celà aide à la compréhension du code. Le nom de la variable doit être en mesure de nous indiquer aisément ce qu'elle contient,
+                même pour une programmeur qui ne travaille pas sur le projet. Par exemple, au lieu de <IC>pj1</IC>, 
+                écrivez <IC>positionJoueur1</IC>.
+            </p>
         </section>
     </>;
 }

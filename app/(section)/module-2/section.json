@@ -4,10 +4,11 @@
     "pages": [
         "introduction",
         "nommage",
+        "ligne",
         "aeration",
         "commentaire",
-        "ligne",
         "constante",
+        "taille-fichier",
         "organisation",
         "lab-revision-source",
         "lab-revision-pairs"
