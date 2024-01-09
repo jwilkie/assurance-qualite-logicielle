@@ -30,7 +30,7 @@ export default function Page() {
                     Ouvrir le dossier du projet dézippé avec Visual Studio Code.
                 </li>
                 <li>
-                    Corriger le code du fichier <IC>Program.cs</IC> pour qu'il respecte les règles vues dans ce module et qu'il 
+                    Corriger le code du fichier <IC>Program.cs</IC> pour qu&apos;il respecte les règles vues dans ce module et qu&apos;il 
                     soit considéré comme du bon et beau code.
                 </li>
             </ol>
