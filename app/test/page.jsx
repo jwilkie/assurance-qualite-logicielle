@@ -127,13 +127,13 @@ export default function Page() {
         <section>
             <h2>Download Block</h2>
             <DownloadBlock>
-                <File fileName="test.txt" path="/lab-01/test.txt"></File>
-                <File fileName="archive.zip" path="/lab-01/archive.zip"></File>
-                <File fileName="UnNomDeFichierTresLong_avecDes_Soulignement.json" path="/lab-01/test.json"></File>
+                <File fileName="test.txt" path="/test/test.txt"></File>
+                <File fileName="archive.zip" path="/test/archive.zip"></File>
+                <File fileName="UnNomDeFichierTresLong_avecDes_Soulignement.json" path="/test/test.json"></File>
                 <File path="/img/e-cite.png"></File>
-                <File path="/lab-01/Video.avi"></File>
-                <File path="/lab-01/Audio.mp3"></File>
-                <File path="/lab-01/Adobe.pdf"></File>
+                <File path="/test/Video.avi"></File>
+                <File path="/test/Audio.mp3"></File>
+                <File path="/test/Adobe.pdf"></File>
             </DownloadBlock>
         </section>
 

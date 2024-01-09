@@ -5,8 +5,8 @@ import IC from "@/components/InlineCode";
  * @type {import("next").Metadata}
  */
 export const metadata = {
-    title: "Laboratoire - Révision de code source",
-    description: "Présentation du laboratoire sur la révision du code source pour qu'il respecte les conventions.",
+    title: "Laboratoire - Plus de révision de code source",
+    description: "Présentation d'un autre laboratoire sur la révision du code source pour qu'il respecte les conventions.",
     keywords: ["code", "propre", "convention", "révision", "corriger", "correction"],
     group: "labs"
 }
@@ -40,7 +40,7 @@ export default function Page() {
             <h2>Téléchargement</h2>
 
             <DownloadBlock>
-                <File fileName="distribué.zip" path="/labs/laboratoire-revision-code.zip"></File>
+                <File fileName="distribué.zip" path="/labs/laboratoire-revision-code-2.zip"></File>
             </DownloadBlock>
         </section>
     </>;
