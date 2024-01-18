@@ -1,7 +1,7 @@
-import OverflowContainer from '@/components/OverflowContainer'
-import Image from 'next/image'
+import OverflowContainer from "@/components/OverflowContainer"
+import Image from "next/image"
 
-import command from '@/public/img/command.svg'
+import command from "@/public/img/command.svg"
 
 /**
  * @type {import("next").Metadata}
@@ -18,7 +18,7 @@ export default function Page() {
         <section>
             <h2>Édition de texte</h2>
             <p>
-                Votre ordinateur défini par défaut un bon nombre de raccourcis claviers qui fonctionne peu importe l'éditeur de texte ou de code
+                Votre ordinateur défini par défaut un bon nombre de raccourcis claviers qui fonctionne peu importe l&apos;éditeur de texte ou de code
                 que vous utilisez. Ces raccourcis doivent être appris par coeurs. Vous devez les connaîtres sur le bout de vos doigts et les
                 utiliser judicieusement pour accélérer votre écriture de code. Cette page vous décrira la plupart de ces raccourcis et leurs
                 utilités.
@@ -56,7 +56,7 @@ export default function Page() {
                 </table>
             </OverflowContainer>
             <p>
-                Le copier et coller sont probablement dans les opérations que vous utiliserez le plus souvent. Voici ce qu'elle nous permette
+                Le copier et coller sont probablement dans les opérations que vous utiliserez le plus souvent. Voici ce qu&apos;elle nous permette
                 de faire:
 
             </p>
@@ -65,7 +65,7 @@ export default function Page() {
                 <dd>Copier le texte ou les éléments sélectionnés en mémoire.</dd>
 
                 <dt>Coller</dt>
-                <dd>Insérer les éléments copier end mémoire à l'endroit où votre curseur se trouve.</dd>
+                <dd>Insérer les éléments copier end mémoire à l&apos;endroit où votre curseur se trouve.</dd>
 
                 <dt>Couper</dt>
                 <dd>Copier le texte ou les éléments sélectionnés en mémoire tout en les supprimant.</dd>
@@ -98,7 +98,7 @@ export default function Page() {
                 </table>
             </OverflowContainer>
             <p>
-                Le contrôle de la tabulation est très pratique lorsque vous voulez modifier l'indentation d'une ou plusieurs lignes de code.
+                Le contrôle de la tabulation est très pratique lorsque vous voulez modifier l&apos;indentation d&apos;une ou plusieurs lignes de code.
                 Ces opérations vous permettent de faire:
             </p>
             <dl>
@@ -136,7 +136,7 @@ export default function Page() {
                 </table>
             </OverflowContainer>
             <p>
-                Le undo et redo permettent de naviguer dans l'historique de vos dernières modifications. Voici ce que ces opérations nous
+                Le undo et redo permettent de naviguer dans l&apos;historique de vos dernières modifications. Voici ce que ces opérations nous
                 permettent de faire:
             </p>
             <dl>
@@ -174,7 +174,7 @@ export default function Page() {
                 </table>
             </OverflowContainer>
             <p>
-                La recherche et la sauvegarde de fichier sont des opérations très commune que vous ferez sans cesse. Voici ce qu'elle nous
+                La recherche et la sauvegarde de fichier sont des opérations très commune que vous ferez sans cesse. Voici ce qu&apos;elle nous
                 permette de faire:
             </p>
             <dl>
@@ -199,7 +199,7 @@ export default function Page() {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Aller au début d'une ligne</td>
+                            <td>Aller au début d&apos;une ligne</td>
                             <td>
                                 <div><kbd>Home</kbd></div>
                                 <div><kbd>fn</kbd> + <kbd>🠔</kbd></div>
@@ -207,7 +207,7 @@ export default function Page() {
                             <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>🠔</kbd></td>
                         </tr>
                         <tr>
-                            <td>Aller à la fin d'une ligne</td>
+                            <td>Aller à la fin d&apos;une ligne</td>
                             <td>
                                 <div><kbd>End</kbd></div>
                                 <div><kbd>fn</kbd> + <kbd>🠖</kbd></div>
@@ -225,12 +225,12 @@ export default function Page() {
                             <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>🠗</kbd></td>
                         </tr>
                         <tr>
-                            <td>Aller au début d'un mot</td>
+                            <td>Aller au début d&apos;un mot</td>
                             <td><div><kbd>Ctrl</kbd> + <kbd>🠔</kbd></div></td>
                             <td><kbd>Alt</kbd> + <kbd>🠔</kbd></td>
                         </tr>
                         <tr>
-                            <td>Aller à la fin d'un mot</td>
+                            <td>Aller à la fin d&apos;un mot</td>
                             <td><div><kbd>Ctrl</kbd> + <kbd>🠖</kbd></div></td>
                             <td><kbd>Alt</kbd> + <kbd>🠖</kbd></td>
                         </tr>
@@ -239,8 +239,8 @@ export default function Page() {
             </OverflowContainer>
             <p>
                 Les raccourcis de navigation permettent de déplacer votre curseur dans votre fichier simplement en utilisant les touches de 
-                votre clavier. Cela permet généralement un déplacement plus rapide qu'avec la souris d'ordinateur et vous permet de continuer 
-                d'écrire du code sans déplacer vos mains du clavier.
+                votre clavier. Cela permet généralement un déplacement plus rapide qu&apos;avec la souris d&apos;ordinateur et vous permet de continuer 
+                d&apos;écrire du code sans déplacer vos mains du clavier.
             </p>
         </section>
 
@@ -277,7 +277,7 @@ export default function Page() {
                             <td><kbd>Shift</kbd> + <kbd>🠗</kbd></td>
                         </tr>
                         <tr>
-                            <td>Sélectionner l'ensemble du document</td>
+                            <td>Sélectionner l&apos;ensemble du document</td>
                             <td><kbd>Ctrl</kbd> + <kbd>A</kbd></td>
                             <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>A</kbd></td>
                         </tr>
