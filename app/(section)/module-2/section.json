@@ -3,6 +3,7 @@
     "description": "Présentation des conventions d'écriture de code, comme le nommage, l'indentation, l'aération et les blocs avec différents langages de programmation.",
     "pages": [
         "introduction",
+        "indentation",
         "nommage",
         "ligne",
         "aeration",

@@ -1,6 +1,9 @@
 {
     "title": "Stratégies de refactorisation",
     "description": "Présentation de différents outils et stratégies de refactorisation du code source pour accélérer l'écriture et la modification du code. Introduction à la programmation écoresponsable.",
-    "disabled": true,
-    "pages": []
+    "pages": [
+        "introduction",
+        "raccourci-base",
+        "raccourci-editeur"
+    ]
 }
