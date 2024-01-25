@@ -28,11 +28,11 @@ const docJS =
 export default function Page() {
     return <>
         <p>
-            Lorsqu'on parle de documenter le code, on parle généralement de mettre des commentaires dans celui-ci pour faciliter 
+            Lorsqu&apos;on parle de documenter le code, on parle généralement de mettre des commentaires dans celui-ci pour faciliter 
             son utilisation ou sa maintenance. On a toutefois complexifier un peu le concept avec les années. En effet, plusieurs 
             entreprises et organisations mettent des pages web indiquant comment utiliser et comment fonctionne leur code. Pour ce 
             faire, les pages web sont généralement généré à partir des commentaires dans le code source. De plus, les éditeurs 
-            de code moderne possède la capacité de suggérer ou d'expliquer du code. Encore une fois, cette fonctionnalité nécessite 
+            de code moderne possède la capacité de suggérer ou d&apos;expliquer du code. Encore une fois, cette fonctionnalité nécessite 
             que le code soit bien documenté.
         </p>
         <p>
@@ -45,8 +45,8 @@ export default function Page() {
         <section>
             <h2>Commentaire de documentation</h2>
             <p>
-                Dans chaque langage de programmation, on utilise généralement des symboles différents pour indiquer l'ouverture ou 
-                la fermeture d'une commentaire de documentation. Les voici dans quelques langage:
+                Dans chaque langage de programmation, on utilise généralement des symboles différents pour indiquer l&apos;ouverture ou 
+                la fermeture d&apos;une commentaire de documentation. Les voici dans quelques langage:
             </p>
             <CodeBlock language="csharp">{docCSharp}</CodeBlock>
             <CodeBlock language="java">{docJava}</CodeBlock>

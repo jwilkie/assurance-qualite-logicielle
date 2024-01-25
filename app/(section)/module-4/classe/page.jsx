@@ -37,11 +37,11 @@ class Rectangle { ... }`;
 export default function Page() {
     return <>
         <section>
-            <h2>Description d'une classe</h2>
+            <h2>Description d&apos;une classe</h2>
             <p>
-                Le commentaire de documentation d'une classe doit se retrouver juste au dessus de la déclaration d'une classe. Ce 
+                Le commentaire de documentation d&apos;une classe doit se retrouver juste au dessus de la déclaration d&apos;une classe. Ce 
                 commentaire doit essentiellement contenir une description de ce que représente la classe, un court résumé de ses 
-                différentes fonctionnalités ainsi que des explications de comment l'utiliser si la classe est complexe.
+                différentes fonctionnalités ainsi que des explications de comment l&apos;utiliser si la classe est complexe.
             </p>
         </section>
         <section>

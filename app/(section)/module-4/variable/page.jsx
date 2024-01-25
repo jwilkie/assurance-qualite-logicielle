@@ -37,7 +37,7 @@ export default function Page() {
             <p>
                 Un code source peut contenir de nombreuses variables. Écrire une description à chaque variable que nous créons serait 
                 définitivement inutile. Nous documenterons donc uniquement les variables et constantes étant directement dans une 
-                classe ou un module. Si une variable est déclaré à l'intérieur d'une fonction, on ne mettra pas de commentaire de documentation. Toutefois, 
+                classe ou un module. Si une variable est déclaré à l&apos;intérieur d&apos;une fonction, on ne mettra pas de commentaire de documentation. Toutefois, 
                 une variable déclaré comme variable de classe devra être documenté.
             </p>
             <p>
@@ -54,8 +54,8 @@ export default function Page() {
             <CodeBlock language="java">{docJava}</CodeBlock>
             <CodeBlock language="js">{docJS}</CodeBlock>
             <ColoredBox title="À noter">
-                Dans les langages non typé où les variables n'ont pas explicitement de type, comme le Javascript, il est généralement 
-                bonne pratique d'indiquer le type de la variable dans les commentaires de documentation.
+                Dans les langages non typé où les variables n&apos;ont pas explicitement de type, comme le Javascript, il est généralement 
+                bonne pratique d&apos;indiquer le type de la variable dans les commentaires de documentation.
             </ColoredBox>
         </section>
     </>;

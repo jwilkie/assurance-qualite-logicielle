@@ -34,7 +34,7 @@ export default function Page() {
                 </li>
                 <li>
                     Écrire les commentaires de documentation au dessus de la classe, des variables de classe ainsi que des fonctions 
-                    dans le fichier <IC>Point.cs</IC>.
+                    et constructeurs dans le fichier <IC>Point.cs</IC>.
                 </li>
             </ol>
         </section>
