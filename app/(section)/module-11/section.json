@@ -1,6 +1,6 @@
 {
-    "title": "Serveurs d'hébergement Git",
-    "description": "Présentation des principaux serveurs d'hébergement des projets avec Git. Démonstration des fonctionnalités supplémentaires offertent par ces serveurs d'hébergement, comme l'utilisation de licence pour le code publique, l'écriture de Markdown pour écrire de la documentation et l'hébergement de site web.",
+    "title": "Travail d'équipe avec Git",
+    "description": "Démonstration de l'utilisation des branches, de leur fusion et de la résolution de conflit pour travailler en équipe avec Git.",
     "disabled": true,
     "pages": []
 }

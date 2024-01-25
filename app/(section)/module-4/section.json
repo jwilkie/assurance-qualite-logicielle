@@ -1,6 +1,11 @@
 {
     "title": "Documentation et commentaires",
     "description": "Présentation de la bonne utilisation des commentaires et des commentaires de documentation dans le code source. Démonstration de la génération de documentation à partir des commentaires de documentation.",
-    "disabled": true,
-    "pages": []
+    "pages": [
+        "introduction",
+        "classe",
+        "variable",
+        "fonction",
+        "outils"
+    ]
 }
