@@ -1,6 +1,11 @@
 {
     "title": "Programmation éco-responsable",
     "description": "Présentation de la programmation éco-responsable et de ses bienfaits autant pour l'environnement, les programmeurs ainsi que les utilisateurs.",
-    "disabled": true,
-    "pages": []
+    "pages": [
+        "introduction",
+        "fondamentale",
+        "comportementale",
+        "structurelle",
+        "ressources"
+    ]
 }

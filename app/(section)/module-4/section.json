@@ -6,6 +6,7 @@
         "classe",
         "variable",
         "fonction",
-        "outils"
+        "outils",
+        "lab-doc"
     ]
 }
