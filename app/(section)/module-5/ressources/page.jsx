@@ -13,7 +13,7 @@ export default function Page() {
         <section>
             <h2>Sources</h2>
             <p>
-                Ce module à nécessité de nombreuses recherches et lectures. Si vous voulez avoir un peu plus d'information, veuillez
+                Ce module à nécessité de nombreuses recherches et lectures. Si vous voulez avoir un peu plus d&apos;information, veuillez
                 consulter les publications et les sites web suivants:
             </p>
             <ul>
@@ -44,12 +44,12 @@ export default function Page() {
                 <li>
                     <a target="_blank" rel="noopener noreferrer"  href="https://greenframe.io/">
                         GreenFrame
-                    </a> - Une application pour aider à diminuer l'emprunte écologique d'un site web.
+                    </a> - Une application pour aider à diminuer l&apos;emprunte écologique d&apos;un site web.
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noreferrer"  href="https://survey.stackoverflow.co/2023/">
                         2023 Developer Survey
-                    </a> - Compilation des statistiques du site web Stack Overflow dans le but d'évaluer les tendances du marché.
+                    </a> - Compilation des statistiques du site web Stack Overflow dans le but d&apos;évaluer les tendances du marché.
                 </li>
             </ul>
         </section>
