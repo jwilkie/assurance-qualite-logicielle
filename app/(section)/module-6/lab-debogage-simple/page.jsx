@@ -31,11 +31,11 @@ export default function Page() {
                 </li>
                 <li>
                     Exécuter le programme et entrer le premier nombre 5 et le deuxième nombre 0 dans la console lorsque demandé. Le code devrait
-                    planter. Identifier et corriger l'erreur en ne faisant que des changement minimal dans le code.
+                    planter. Identifier et corriger l&apos;erreur en ne faisant que des changement minimal dans le code.
                 </li>
                 <li>
                     Exécuter le programme et entrer le premier nombre -1 et le deuxième nombre 5 dans la console lorsque demandé. Le code devrait
-                    s'exécuter à l'infini. Identifier et corriger le problème en ne faisant que des changement minimal dans le code.
+                    s&apos;exécuter à l&apos;infini. Identifier et corriger le problème en ne faisant que des changement minimal dans le code.
                 </li>
                 <li>
                     Défi: Une troisième erreur se trouve dans le code. Trouver cette erreur et la corriger.

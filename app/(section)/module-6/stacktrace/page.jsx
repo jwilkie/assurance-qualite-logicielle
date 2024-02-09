@@ -38,13 +38,13 @@ export default function Page() {
         <section>
             <h2>Introduction</h2>
             <p>
-                La stack trace est un morceau de texte qui est généralement affiché dans la console lorsqu'un programme rencontre une erreur 
-                durant son exécution. C'est la méthode utilisé par le langage de programmation pour communiquer l'endroit dans le code où 
-                l'erreur est survenu.
+                La stack trace est un morceau de texte qui est généralement affiché dans la console lorsqu&apos;un programme rencontre une erreur 
+                durant son exécution. C&apos;est la méthode utilisé par le langage de programmation pour communiquer l&apos;endroit dans le code où 
+                l&apos;erreur est survenu.
             </p>
             <p>
                 Avec la réutilisation de code, un morceau de code peut être utilisé à de nombreux endroits. La stack trace essaie donc 
-                d'indiquer le chemin pris par le code pour se rendre jusqu'au morceau de code fautif. Cette façon de faire est très utile quand 
+                d&apos;indiquer le chemin pris par le code pour se rendre jusqu&apos;au morceau de code fautif. Cette façon de faire est très utile quand 
                 on est habitué de voir des stack trace, mais assez complexe quand on ne programme pas depuis longtemps.
             </p>
         </section>
@@ -59,35 +59,35 @@ export default function Page() {
                 On note ici quelques détails que vous retrouverez toujours:
             </p>
             <dl>
-                <dt>Nom de l'erreur ou exception</dt>
+                <dt>Nom de l&apos;erreur ou exception</dt>
                 <dd>
-                    Nom qui est donné à l'erreur par le langage de programmation. Dépendant de l'erreur, le nom va changer. Avec l'expérience, 
-                    on connait bien les noms utilisés et il devient facile de savoir pourquoi l'erreur est causé.
+                    Nom qui est donné à l&apos;erreur par le langage de programmation. Dépendant de l&apos;erreur, le nom va changer. Avec l&apos;expérience, 
+                    on connait bien les noms utilisés et il devient facile de savoir pourquoi l&apos;erreur est causé.
                 </dd>
-                <dt>Description de l'erreur ou exeption</dt>
+                <dt>Description de l&apos;erreur ou exeption</dt>
                 <dd>
-                    Description plus complète de l'erreur ainsi que pourquoi elle est survenu. On peut souvent y trouver des valeurs de variables
-                    ou des paramètres de fonction qui sont invalide, nous indiquant clairement ce qui s'est passé. Malheureusement, certains
-                    langage de programmation ou compilateurs n'ont pas de messages clairs, ce qui est un peu pénible à déboguer.
+                    Description plus complète de l&apos;erreur ainsi que pourquoi elle est survenu. On peut souvent y trouver des valeurs de variables
+                    ou des paramètres de fonction qui sont invalide, nous indiquant clairement ce qui s&apos;est passé. Malheureusement, certains
+                    langage de programmation ou compilateurs n&apos;ont pas de messages clairs, ce qui est un peu pénible à déboguer.
                 </dd>
-                <dt>Nom de fonction et du fichier causant l'erreur</dt>
+                <dt>Nom de fonction et du fichier causant l&apos;erreur</dt>
                 <dd>
-                    C'est littéralement le nom de la fonction dans laquelle l'erreur survient et le fichier qui contient cette fonction. Vous 
-                    pouvez ainsi facilement trouver la source de l'erreur.
+                    C&apos;est littéralement le nom de la fonction dans laquelle l&apos;erreur survient et le fichier qui contient cette fonction. Vous 
+                    pouvez ainsi facilement trouver la source de l&apos;erreur.
                 </dd>
-                <dt>Numéro de ligne de l'erreur</dt>
+                <dt>Numéro de ligne de l&apos;erreur</dt>
                 <dd>
-                    La plupart des langages de programmation indiqueront aussi la ligne ou l'erreur est survenu. Certain langage indiqueront 
+                    La plupart des langages de programmation indiqueront aussi la ligne ou l&apos;erreur est survenu. Certain langage indiqueront 
                     aussi le numéro de colonne (en caractères).
                 </dd>
             </dl>
             <p>
-                Vous remarquerez aussi une certaine répétition de la ligne indiquant l'emplacement de l'erreur. Ce n'est pas parce qu'il y a 
-                plusieurs erreurs, mais parce que la stack trace indique de où l'erreur est appelé. Par exemple, si l'erreur est survenu dans 
-                une fonction, appelé par une autre fonction, on verra la hierarchie de l'appel de ces 2 fonctions dans la stack trace.
+                Vous remarquerez aussi une certaine répétition de la ligne indiquant l&apos;emplacement de l&apos;erreur. Ce n&apos;est pas parce qu&apos;il y a 
+                plusieurs erreurs, mais parce que la stack trace indique de où l&apos;erreur est appelé. Par exemple, si l&apos;erreur est survenu dans 
+                une fonction, appelé par une autre fonction, on verra la hierarchie de l&apos;appel de ces 2 fonctions dans la stack trace.
             </p>
             <ColoredBox title="Attention">
-                Il est possible de voir certaines lignes de fonction que vous ne connaissez pas. C'est généralement le cas lorsque l'erreur 
+                Il est possible de voir certaines lignes de fonction que vous ne connaissez pas. C&apos;est généralement le cas lorsque l&apos;erreur 
                 survient dans une librairie de code que vous utilisez ou dans des fonctions appartenant au langage de programmation. Dans ce 
                 genre de cas, on doit simplement parcourir la stack trace pour trouver un fichier que nous connaissons pour identifier la 
                 source du problème.
@@ -105,21 +105,21 @@ export default function Page() {
             </p>
             <ol>
                 <li>
-                    Selon la stack trace, on voit que l'erreur est une erreur de format selon son nom. Selon sa description, on peut voir qu'une 
-                    chaîne entrée <IC>"abc"</IC> n'a pas le bon format.
+                    Selon la stack trace, on voit que l&apos;erreur est une erreur de format selon son nom. Selon sa description, on peut voir qu&apos;une 
+                    chaîne entrée <IC>"abc"</IC> n&apos;a pas le bon format.
                 </li>
                 <li>
-                    L'endroit où l'erreur semble arrivé est dans <IC>System.Number</IC> qui est une classe de C#. On remonte donc la stack trace
-                    pour trouver où cette classe est appelé. On voit juste en dessous qu'elle est appelé de <IC>System.Int32.Parse</IC> qui est
+                    L&apos;endroit où l&apos;erreur semble arrivé est dans <IC>System.Number</IC> qui est une classe de C#. On remonte donc la stack trace
+                    pour trouver où cette classe est appelé. On voit juste en dessous qu&apos;elle est appelé de <IC>System.Int32.Parse</IC> qui est
                     la fonction <IC>int.Parse</IC> de C#.
                 </li>
                 <li>
-                    La fonction <IC>int.Parse</IC> semble être appelé d'une fonction <IC>DemandeEntree()</IC> qui se trouve dans une 
-                    classe <IC>Program</IC> dans un fichier <IC>Program.cs</IC>. La ligne de l'appel est la ligne 16.
+                    La fonction <IC>int.Parse</IC> semble être appelé d&apos;une fonction <IC>DemandeEntree()</IC> qui se trouve dans une 
+                    classe <IC>Program</IC> dans un fichier <IC>Program.cs</IC>. La ligne de l&apos;appel est la ligne 16.
                 </li>
             </ol>
             <p>
-                En résumé, on en conclu que le programme plante parce qu'il essaie de convertir la chaîne <IC>"abc"</IC> en un nombre entier à 
+                En résumé, on en conclu que le programme plante parce qu&apos;il essaie de convertir la chaîne <IC>"abc"</IC> en un nombre entier à 
                 la ligne 16 du fichier <IC>Program.cs</IC> dans la fonction <IC>DemandeEntree()</IC>. Il faudrait donc investiguer pourquoi la 
                 chaîne <IC>"abc"</IC> a été passé et empêcher que cela se reproduise.
             </p>
