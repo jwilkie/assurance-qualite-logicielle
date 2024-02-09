@@ -106,7 +106,7 @@ export default function Page() {
             <ol>
                 <li>
                     Selon la stack trace, on voit que l&apos;erreur est une erreur de format selon son nom. Selon sa description, on peut voir qu&apos;une 
-                    chaîne entrée <IC>"abc"</IC> n&apos;a pas le bon format.
+                    chaîne entrée <IC>&quot;abc&quot;</IC> n&apos;a pas le bon format.
                 </li>
                 <li>
                     L&apos;endroit où l&apos;erreur semble arrivé est dans <IC>System.Number</IC> qui est une classe de C#. On remonte donc la stack trace
@@ -119,9 +119,9 @@ export default function Page() {
                 </li>
             </ol>
             <p>
-                En résumé, on en conclu que le programme plante parce qu&apos;il essaie de convertir la chaîne <IC>"abc"</IC> en un nombre entier à 
+                En résumé, on en conclu que le programme plante parce qu&apos;il essaie de convertir la chaîne <IC>&quot;abc&quot;</IC> en un nombre entier à 
                 la ligne 16 du fichier <IC>Program.cs</IC> dans la fonction <IC>DemandeEntree()</IC>. Il faudrait donc investiguer pourquoi la 
-                chaîne <IC>"abc"</IC> a été passé et empêcher que cela se reproduise.
+                chaîne <IC>&quot;abc&quot;</IC> a été passé et empêcher que cela se reproduise.
             </p>
         </section>
     </>;
