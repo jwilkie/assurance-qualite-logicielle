@@ -1,11 +1,15 @@
+import Image from "next/image";
 import BorderedBox from "@/components/BorderedBox";
 import CodeBlock from "@/components/CodeBlock";
 import ColoredBox from "@/components/ColoredBox";
-import { DownloadBlock, File } from "@/components/DownloadBlock";
+import { DownloadBlock, File as DownloadFile } from "@/components/DownloadBlock";
 import IC from "@/components/InlineCode";
 import OverflowContainer from "@/components/OverflowContainer";
 import { Code, WebExample } from "@/components/WebExample";
 import YoutubeVideo from "@/components/YoutubeVideo";
+import { FileExplorer, Folder, File } from "@/components/FileExplorer";
+
+import testImage from "@/public/img/e-cite.png";
 
 /**
  * @type {import("next").Metadata}
@@ -150,13 +154,13 @@ export default function Page() {
         <section>
             <h2>Download Block</h2>
             <DownloadBlock>
-                <File fileName="test.txt" path="/test/test.txt"></File>
-                <File fileName="archive.zip" path="/test/archive.zip"></File>
-                <File fileName="UnNomDeFichierTresLong_avecDes_Soulignement.json" path="/test/test.json"></File>
-                <File path="/img/e-cite.png"></File>
-                <File path="/test/Video.avi"></File>
-                <File path="/test/Audio.mp3"></File>
-                <File path="/test/Adobe.pdf"></File>
+                <DownloadFile fileName="test.txt" path="/test/test.txt"></DownloadFile>
+                <DownloadFile fileName="archive.zip" path="/test/archive.zip"></DownloadFile>
+                <DownloadFile fileName="UnNomDeFichierTresLong_avecDes_Soulignement.json" path="/test/test.json"></DownloadFile>
+                <DownloadFile path="/img/e-cite.png"></DownloadFile>
+                <DownloadFile path="/test/Video.avi"></DownloadFile>
+                <DownloadFile path="/test/Audio.mp3"></DownloadFile>
+                <DownloadFile path="/test/Adobe.pdf"></DownloadFile>
             </DownloadBlock>
         </section>
 
@@ -250,6 +254,58 @@ export default function Page() {
                     </tbody>
                 </table>
             </OverflowContainer>
+        </section>
+
+        <section>
+            <h2>File Explorer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vel placeat exercitationem, quam nesciunt officiis culpa eaque ut quo esse nobis blanditiis eligendi fugit modi, porro vero enim temporibus distinctio?</p>
+            <FileExplorer>
+                <Folder name="css">
+                    <File name="normalize.css"></File>
+                    <File name="style.css"></File>
+                </Folder>
+                <Folder name="js">
+                    <File name="main.js"></File>
+                </Folder>
+                <Folder name="ressources">
+                    <Folder name="images">
+                        <File name="image.jpg"></File>
+                        <File name="image2.png"></File>
+                    </Folder>
+                    <File name="video.mp4"></File>
+                    <File name="audio.wav"></File>
+                    <File name="document.pdf"></File>
+                    <File name="projet.zip"></File>
+                </Folder>
+                <Folder name="Ceci">
+                    <Folder name="Est">
+                        <Folder name="Un">
+                            <Folder name="Test pour voir">
+                                <Folder name="Comment la longueur">
+                                    <Folder name="Réagit">
+                                        <Folder name="Avec un nom de dossier très long">
+
+                                        </Folder>
+                                    </Folder>
+                                </Folder>
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <File name="index.html"></File>
+            </FileExplorer>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vel placeat exercitationem, quam nesciunt officiis culpa eaque ut quo esse nobis blanditiis eligendi fugit modi, porro vero enim temporibus distinctio?</p>
+        </section>
+
+        <section>
+            <h2>Images</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum suscipit atque nobis, a, earum repellendus, et veritatis neque maiores dolor corrupti ratione autem exercitationem? Reprehenderit unde in optio quia!
+            </p>
+            <Image src={testImage} alt="Test image" />
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus vel odit quis optio molestiae neque necessitatibus, fuga, suscipit deleniti ullam ipsa sunt explicabo sequi commodi facere molestias magni delectus. Eius?
+            </p>
         </section>
     </>;
 }
