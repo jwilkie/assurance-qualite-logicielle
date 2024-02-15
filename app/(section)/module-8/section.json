@@ -1,6 +1,6 @@
 {
-    "title": "Outils d'intelligence artificielle",
-    "description": "Démonstration de l'utilisation de l'intelligence artificielle comme outil pour générer du code ou trouver des bogues dans celui-ci.",
+    "title": "Techniques avancées avec débogueurs",
+    "description": "Démonstration de techniques avancées dans l'utilisation d'un débogueur pour identifier et trouver les bogues et erreurs dans le code source.",
     "disabled": true,
     "pages": []
 }

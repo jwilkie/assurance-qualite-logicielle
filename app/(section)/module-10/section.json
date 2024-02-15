@@ -1,6 +1,6 @@
 {
-    "title": "Introduction à Git",
-    "description": "Présentation de Git comme outil de gestion de version. Démonstration de l'utilisation de base de Git sur un projet à l'aide de la ligne de commande ou d'une interface graphique.",
+    "title": "Gestion de version et travail d'équipe",
+    "description": "Discussion des bénéfices de l'utilisation des logiciels de gestion de version et présentation des principales solutions existantes sur le marché.",
     "disabled": true,
     "pages": []
 }
