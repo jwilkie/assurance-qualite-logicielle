@@ -1,6 +1,11 @@
 {
     "title": "Outils d'intelligence artificielle",
     "description": "Démonstration de l'utilisation de l'intelligence artificielle comme outil pour générer du code ou trouver des bogues dans celui-ci.",
-    "disabled": true,
-    "pages": []
+    "pages": [
+        "introduction",
+        "outils",
+        "utilisation",
+        "lab-ia",
+        "lab-ia-2"
+    ]
 }
