@@ -1,6 +1,6 @@
 {
-    "title": "Travail d'équipe avec Git",
-    "description": "Démonstration de l'utilisation des branches, de leur fusion et de la résolution de conflit pour travailler en équipe avec Git.",
+    "title": "Serveur d'hébergement Git",
+    "description": "Démonstration de l'utilisation de serveurs d'hébergement Git pour stocker le code source dans le cloud et ainsi y avoir accès sur n'importe quel ordinateur.",
     "disabled": true,
     "pages": []
 }
