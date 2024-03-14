@@ -52,8 +52,8 @@ export default function Page() {
                 c&apos;est nécessaire.
             </p>
             <p>
-                À la base chaque programmeur possède une copie du code source. Lorsqu&apos;un programmeur fait un changement, il fera un 
-                <em>commit</em> pour envoyer ses changements au serveur de versionnage.  Lorsqu&apos;un programmeur veut récupérer les 
+                À la base chaque programmeur possède une copie du code source. Lorsqu&apos;un programmeur fait un changement, il fera 
+                un <em>commit</em> pour envoyer ses changements au serveur de versionnage.  Lorsqu&apos;un programmeur veut récupérer les 
                 changements des autres, il fera une mise à jour pour récupérer les changements des autres programmeurs.
             </p>
             <p>
