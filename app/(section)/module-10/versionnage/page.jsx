@@ -66,7 +66,7 @@ export default function Page() {
             <h2>Solution logicielle au versionnage</h2>
             <p>
                 De nombreuses solutions logicielles existent pour le versionnage du code source. Parmi les plus populaires, on 
-                retrouve <strong>SVN</strong>, <strong>Mercurial</strong>, <strong>Perforce</strong> et <strong>Subversion</strong>. C&apos;est 
+                retrouve <strong>Subversion (SVN)</strong>, <strong>Mercurial</strong> et <strong>Perforce</strong>. C&apos;est 
                 toutefois le logiciel <strong>Git</strong> qui est présentement le standard de l&apos;industrie. Le fait que son logiciel 
                 de base est gratuit et que de nombreux serveurs d&apos;hébergement de code source 
                 comme <strong>GitHub</strong> et <strong>GitLab</strong> le sont aussi en fait un choix très populaire.
