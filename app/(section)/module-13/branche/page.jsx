@@ -38,7 +38,7 @@ export default function Page() {
             <Image src={branches} alt="Exemple d'utilisation de branches avec Git" />
             <p>
                 Dans cette page, nous verrons comment utiliser les branches en local directement avec le client Git. L&apos;utilisation de 
-                branches avec un serveur Git est un peu différente sera vue dans un module subséquent.
+                branches avec un serveur Git est un peu différente sera vue un peu plus loin dans ce module.
             </p>
         </section>
 
