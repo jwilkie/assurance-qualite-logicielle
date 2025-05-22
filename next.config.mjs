@@ -5,8 +5,7 @@ const nextConfig = {
     trailingSlash: true,
     images: {
         unoptimized: true
-    },
-    basePath: '/assurance-qualite-logicielle'
+    }
 }
 
 export default nextConfig

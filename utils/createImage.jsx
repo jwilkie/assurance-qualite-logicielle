@@ -24,7 +24,7 @@ export async function createIcon(size, theme) {
         theme
     );
 
-    const fontSizeMultiplier = 0.575;
+    const fontSizeMultiplier = 0.45;
 
     const openSans = await readFile(
         join(process.cwd(), 'assets/OpenSans-Bold.ttf')
