@@ -16,7 +16,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({params}) {
-    let group = await getGroupBySlug(params.group);
+    const { group: slug } = await params;
+    let group = await getGroupBySlug(slug);
 
     return {
         title: group.title,
@@ -24,9 +25,10 @@ export async function generateMetadata({params}) {
     }
 }
 
-export default async function Group({ params }) {
-    let group = await getGroupBySlug(params.group);
-    let sections = await getSections();
+export default async function Group({params}) {
+    const { group: slug } = await params;
+    const group = await getGroupBySlug(slug);
+    const sections = await getSections();
 
     return <>
         <h1>{group.title}</h1>
@@ -39,7 +41,7 @@ export default async function Group({ params }) {
                 )}
             </ul>
         :
-            sections.filter((section) => section.groups[group.slug] && !section.disabled).map((section, index) =>
+            sections.map((section, index) => section.groups[group.slug] && !section.disabled &&
                 <Fragment key={section.slug}>
                     <h2>{capitalize(appConfig.sectionName)} {index + 1} - {section.title}</h2>
                     <ul className={styles.list}>
