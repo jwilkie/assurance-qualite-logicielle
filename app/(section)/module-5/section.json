@@ -1,4 +1,5 @@
 {
+    "$schema": "../../../model/section.schema.json",
     "title": "Programmation éco-responsable",
     "description": "Présentation de la programmation éco-responsable et de ses bienfaits autant pour l'environnement, les programmeurs ainsi que les utilisateurs.",
     "pages": [

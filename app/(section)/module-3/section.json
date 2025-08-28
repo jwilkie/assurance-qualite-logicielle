@@ -1,4 +1,5 @@
 {
+    "$schema": "../../../model/section.schema.json",
     "title": "Stratégies de refactorisation",
     "description": "Présentation de différents outils et stratégies de refactorisation du code source pour accélérer l'écriture et la modification du code.",
     "pages": [
