@@ -1,4 +1,5 @@
 {
+    "$schema": "../../../model/section.schema.json",
     "title": "Gestion de version et travail d'équipe",
     "description": "Discussion des bénéfices de l'utilisation des logiciels de gestion de version et présentation des principales solutions existantes sur le marché.",
     "pages": [

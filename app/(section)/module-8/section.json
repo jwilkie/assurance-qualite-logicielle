@@ -1,4 +1,5 @@
 {
+    "$schema": "../../../model/section.schema.json",
     "title": "Techniques avancées avec débogueurs",
     "description": "Démonstration de techniques avancées dans l'utilisation d'un débogueur pour identifier et trouver les bogues et erreurs dans le code source.",
     "pages": [

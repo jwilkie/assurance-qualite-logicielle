@@ -1,4 +1,5 @@
 {
+    "$schema": "../../../model/section.schema.json",
     "title": "Serveur d'hébergement Git",
     "description": "Démonstration de l'utilisation de serveurs d'hébergement Git pour stocker le code source dans le cloud et ainsi y avoir accès sur n'importe quel ordinateur.",
     "pages": [

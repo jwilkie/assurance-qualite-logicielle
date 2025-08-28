@@ -1,4 +1,5 @@
 {
+    "$schema": "../../../model/section.schema.json",
     "title": "Travail d'équipe avec Git",
     "description": "Démonstration de l'ajout d'utilisateur à un projet, de l'utilisation des branches, de leur fusion et de la résolution de conflit pour travailler en équipe avec Git.",
     "pages": [
