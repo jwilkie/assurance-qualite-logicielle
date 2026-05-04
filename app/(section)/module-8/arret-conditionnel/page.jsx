@@ -1,4 +1,5 @@
 import IC from '@/components/InlineCode'
+import KK from '@/components/KeyboardKey'
 
 /**
  * @type {import("next").Metadata}
@@ -35,7 +36,7 @@ export default function Page() {
             <ol>
                 <li>
                     Ajouter un point d&apos;arrêt normalement en cliquant dans la marge d&apos;une ligne de code ou en appuyant sur la
-                    touche <kbd>F9</kbd>.
+                    touche <KK>F9</KK>.
                 </li>
                 <li>
                     Faire un clic droit sur le point d&apos;arrêt ajouté et cliquer sur <em>Edit breakpoint</em> ou <em>Conditions</em>. Le terme 

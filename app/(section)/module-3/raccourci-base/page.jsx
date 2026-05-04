@@ -1,7 +1,5 @@
-import OverflowContainer from "@/components/OverflowContainer"
-import Image from "next/image"
-
-import command from "@/public/img/command.svg"
+import KK from '@/components/KeyboardKey'
+import OverflowContainer from '@/components/OverflowContainer'
 
 /**
  * @type {import("next").Metadata}
@@ -39,18 +37,18 @@ export default function Page() {
                     <tbody>
                         <tr>
                             <td>Copier un élément</td>
-                            <td><kbd>CTRL</kbd> + <kbd>C</kbd></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>C</kbd></td>
+                            <td><KK>CTRL</KK> + <KK>C</KK></td>
+                            <td><KK>⌘</KK> + <KK>C</KK></td>
                         </tr>
                         <tr>
                             <td>Couper un élément</td>
-                            <td><kbd>CTRL</kbd> + <kbd>X</kbd></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>X</kbd></td>
+                            <td><KK>CTRL</KK> + <KK>X</KK></td>
+                            <td><KK>⌘</KK> + <KK>X</KK></td>
                         </tr>
                         <tr>
                             <td>Coller un élément</td>
-                            <td><kbd>CTRL</kbd> + <kbd>V</kbd></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>V</kbd></td>
+                            <td><KK>CTRL</KK> + <KK>V</KK></td>
+                            <td><KK>⌘</KK> + <KK>V</KK></td>
                         </tr>
                     </tbody>
                 </table>
@@ -86,13 +84,13 @@ export default function Page() {
                     <tbody>
                         <tr>
                             <td>Tabulation</td>
-                            <td><kbd>Tab</kbd></td>
-                            <td><kbd>Tab</kbd></td>
+                            <td><KK>Tab</KK></td>
+                            <td><KK>Tab</KK></td>
                         </tr>
                         <tr>
                             <td>Dé-tabulation</td>
-                            <td><kbd>Shift</kbd> + <kbd>Tab</kbd></td>
-                            <td><kbd>Shift</kbd> + <kbd>Tab</kbd></td>
+                            <td><KK>Shift</KK> + <KK>Tab</KK></td>
+                            <td><KK>Shift</KK> + <KK>Tab</KK></td>
                         </tr>
                     </tbody>
                 </table>
@@ -124,13 +122,13 @@ export default function Page() {
                     <tbody>
                         <tr>
                             <td>Undo (Annuler)</td>
-                            <td><kbd>CTRL</kbd> + <kbd>Z</kbd></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>Z</kbd></td>
+                            <td><KK>CTRL</KK> + <KK>Z</KK></td>
+                            <td><KK>⌘</KK> + <KK>Z</KK></td>
                         </tr>
                         <tr>
                             <td>Redo (Refaire)</td>
-                            <td><kbd>CTRL</kbd> + <kbd>Y</kbd></td>
-                            <td><kbd>Shift</kbd> + <kbd><Image src={command} alt="CMD" /></kbd> + <kbd>Z</kbd></td>
+                            <td><KK>CTRL</KK> + <KK>Y</KK></td>
+                            <td><KK>Shift</KK> + <KK>⌘</KK> + <KK>Z</KK></td>
                         </tr>
                     </tbody>
                 </table>
@@ -162,13 +160,13 @@ export default function Page() {
                     <tbody>
                         <tr>
                             <td>Sauvegarder le fichier</td>
-                            <td><kbd>CTRL</kbd> + <kbd>S</kbd></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>S</kbd></td>
+                            <td><KK>CTRL</KK> + <KK>S</KK></td>
+                            <td><KK>⌘</KK> + <KK>S</KK></td>
                         </tr>
                         <tr>
                             <td>Rechercher dans le ficheir</td>
-                            <td><kbd>CTRL</kbd> + <kbd>F</kbd></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>F</kbd></td>
+                            <td><KK>CTRL</KK> + <KK>F</KK></td>
+                            <td><KK>⌘</KK> + <KK>F</KK></td>
                         </tr>
                     </tbody>
                 </table>
@@ -201,38 +199,38 @@ export default function Page() {
                         <tr>
                             <td>Aller au début d&apos;une ligne</td>
                             <td>
-                                <div><kbd>Home</kbd></div>
-                                <div><kbd>fn</kbd> + <kbd>🠔</kbd></div>
+                                <div><KK>Home</KK></div>
+                                <div><KK>fn</KK> + <KK>🠔</KK></div>
                             </td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>🠔</kbd></td>
+                            <td><KK>⌘</KK> + <KK>🠔</KK></td>
                         </tr>
                         <tr>
                             <td>Aller à la fin d&apos;une ligne</td>
                             <td>
-                                <div><kbd>End</kbd></div>
-                                <div><kbd>fn</kbd> + <kbd>🠖</kbd></div>
+                                <div><KK>End</KK></div>
+                                <div><KK>fn</KK> + <KK>🠖</KK></div>
                             </td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>🠖</kbd></td>
+                            <td><KK>⌘</KK> + <KK>🠖</KK></td>
                         </tr>
                         <tr>
                             <td>Aller au début du fichier</td>
-                            <td><div><kbd>Ctrl</kbd> + <kbd>Home</kbd></div></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>🠕</kbd></td>
+                            <td><div><KK>Ctrl</KK> + <KK>Home</KK></div></td>
+                            <td><KK>⌘</KK> + <KK>🠕</KK></td>
                         </tr>
                         <tr>
                             <td>Aller à la fin du fichier</td>
-                            <td><div><kbd>Ctrl</kbd> + <kbd>End</kbd></div></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>🠗</kbd></td>
+                            <td><div><KK>Ctrl</KK> + <KK>End</KK></div></td>
+                            <td><KK>⌘</KK> + <KK>🠗</KK></td>
                         </tr>
                         <tr>
                             <td>Aller au début d&apos;un mot</td>
-                            <td><div><kbd>Ctrl</kbd> + <kbd>🠔</kbd></div></td>
-                            <td><kbd>Alt</kbd> + <kbd>🠔</kbd></td>
+                            <td><div><KK>Ctrl</KK> + <KK>🠔</KK></div></td>
+                            <td><KK>Alt</KK> + <KK>🠔</KK></td>
                         </tr>
                         <tr>
                             <td>Aller à la fin d&apos;un mot</td>
-                            <td><div><kbd>Ctrl</kbd> + <kbd>🠖</kbd></div></td>
-                            <td><kbd>Alt</kbd> + <kbd>🠖</kbd></td>
+                            <td><div><KK>Ctrl</KK> + <KK>🠖</KK></div></td>
+                            <td><KK>Alt</KK> + <KK>🠖</KK></td>
                         </tr>
                     </tbody>
                 </table>
@@ -258,28 +256,28 @@ export default function Page() {
                     <tbody>
                         <tr>
                             <td>Sélectionner du texte vers la droite</td>
-                            <td><kbd>Shift</kbd> + <kbd>🠖</kbd></td>
-                            <td><kbd>Shift</kbd> + <kbd>🠖</kbd></td>
+                            <td><KK>Shift</KK> + <KK>🠖</KK></td>
+                            <td><KK>Shift</KK> + <KK>🠖</KK></td>
                         </tr>
                         <tr>
                             <td>Sélectionner du texte vers la gauche</td>
-                            <td><kbd>Shift</kbd> + <kbd>🠔</kbd></td>
-                            <td><kbd>Shift</kbd> + <kbd>🠔</kbd></td>
+                            <td><KK>Shift</KK> + <KK>🠔</KK></td>
+                            <td><KK>Shift</KK> + <KK>🠔</KK></td>
                         </tr>
                         <tr>
                             <td>Sélectionner du texte vers le haut</td>
-                            <td><kbd>Shift</kbd> + <kbd>🠕</kbd></td>
-                            <td><kbd>Shift</kbd> + <kbd>🠕</kbd></td>
+                            <td><KK>Shift</KK> + <KK>🠕</KK></td>
+                            <td><KK>Shift</KK> + <KK>🠕</KK></td>
                         </tr>
                         <tr>
                             <td>Sélectionner du texte vers le bas</td>
-                            <td><kbd>Shift</kbd> + <kbd>🠗</kbd></td>
-                            <td><kbd>Shift</kbd> + <kbd>🠗</kbd></td>
+                            <td><KK>Shift</KK> + <KK>🠗</KK></td>
+                            <td><KK>Shift</KK> + <KK>🠗</KK></td>
                         </tr>
                         <tr>
                             <td>Sélectionner l&apos;ensemble du document</td>
-                            <td><kbd>Ctrl</kbd> + <kbd>A</kbd></td>
-                            <td><kbd><Image src={command} alt="CMD" /></kbd> + <kbd>A</kbd></td>
+                            <td><KK>Ctrl</KK> + <KK>A</KK></td>
+                            <td><KK>⌘</KK> + <KK>A</KK></td>
                         </tr>
                     </tbody>
                 </table>
@@ -290,7 +288,7 @@ export default function Page() {
             </p>
             <p>
                 Il est possible de sélectionner en utilisant les raccourcis de navigation si vous appuyez en plus sur la
-                touche <kbd>Shift</kbd> suivie du raccourci de navigation voulu.
+                touche <KK>Shift</KK> suivie du raccourci de navigation voulu.
             </p>
         </section>
     </>;

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import KK from '@/components/KeyboardKey'
 
 import breakpoint from '@/public/img/module-7-breakpoint.png'
 import startStop from '@/public/img/module-7-start-stop.png'
@@ -32,7 +33,7 @@ export default function Page() {
             <p>
                 Une autre façon de mettre un point d&apos;arrêt est d&apos;utiliser les raccourcis de votre clavier. Dans Visual Studio et Visual Studio 
                 Code, cliquez ou mettez le curseur de texte sur la ligne à laquelle vous voulez ajouter le point d&apos;arrêt et appuyez sur la 
-                touche <kbd>F9</kbd> de votre clavier.
+                touche <KK>F9</KK> de votre clavier.
             </p>
         </section>
 
@@ -55,12 +56,12 @@ export default function Page() {
                     <tr>
                         <td>Visual Studio Code</td>
                         <td>Run -&gt; Start Debugging</td>
-                        <td><kbd>F5</kbd></td>
+                        <td><KK>F5</KK></td>
                     </tr>
                     <tr>
                         <td>Visual Studio</td>
                         <td>Debug -&gt; Start</td>
-                        <td><kbd>F5</kbd></td>
+                        <td><KK>F5</KK></td>
                     </tr>
                 </tbody>
             </table>
@@ -83,12 +84,12 @@ export default function Page() {
                     <tr>
                         <td>Visual Studio Code</td>
                         <td>Run -&gt; Stop Debugging</td>
-                        <td><kbd>Shift</kbd> + <kbd>F5</kbd></td>
+                        <td><KK>Shift</KK> + <KK>F5</KK></td>
                     </tr>
                     <tr>
                         <td>Visual Studio</td>
                         <td>Debug -&gt; Stop debugging</td>
-                        <td><kbd>F5</kbd> + <kbd>F5</kbd></td>
+                        <td><KK>F5</KK> + <KK>F5</KK></td>
                     </tr>
                 </tbody>
             </table>

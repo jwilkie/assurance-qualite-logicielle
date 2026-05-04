@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import KK from '@/components/KeyboardKey'
 
 import varDebug from '@/public/img/module-7-var.png'
 import navigation from '@/public/img/module-7-navigation.png'
@@ -52,7 +53,7 @@ export default function Page() {
                             Permet d&apos;exécuter la prochaine ligne de code et remet le l&apos;exécution du code en pause. Si cette ligne de code est 
                             une fonction, la fonction sera exécuté au complet d&apos;un seul coup.
                         </td>
-                        <td><kbd>F10</kbd></td>
+                        <td><KK>F10</KK></td>
                     </tr>
                     <tr>
                         <td>Step Into</td>
@@ -61,7 +62,7 @@ export default function Page() {
                             une fonction, le débogueur entrera dans la fonction et exécutera uniquement la première instruction avant de 
                             remettre en pause.
                         </td>
-                        <td><kbd>F11</kbd></td>
+                        <td><KK>F11</KK></td>
                     </tr>
                     <tr>
                         <td>Step Out</td>
@@ -69,7 +70,7 @@ export default function Page() {
                             Permet d&apos;exécuter le restant des lignes de la fonction courante et sort de la fonction. L&apos;exécution du code se 
                             remettra en pause immédiatement après avoir sortie de la fonction.
                         </td>
-                        <td><kbd>Shift</kbd> + <kbd>F11</kbd></td>
+                        <td><KK>Shift</KK> + <KK>F11</KK></td>
                     </tr>
                     <tr>
                         <td>Continue</td>
@@ -77,7 +78,7 @@ export default function Page() {
                             Permet d&apos;enlever la pause de l&apos;exécution du code et de relancer le code normalement. Si l&apos;exécution du code atteint 
                             un nouveau point d&apos;arrêt, le code se remettra en pause.
                         </td>
-                        <td><kbd>F5</kbd></td>
+                        <td><KK>F5</KK></td>
                     </tr>
                 </tbody>
             </table>

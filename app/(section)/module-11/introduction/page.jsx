@@ -1,3 +1,5 @@
+import KK from '@/components/KeyboardKey'
+
 /**
  * @type {import("next").Metadata}
  */
@@ -21,7 +23,7 @@ export default function Page() {
             <p>
                 Comme discuté dans le cours précédant, il est très utile de garder plusieurs version d&apos;un code source. En effet, il arrive 
                 fréquement d&apos;écraser du code en pensant qu&apos;il était inutile pour finalement se rendre compte qu&apos;on en a encore besoin. Parfois, 
-                quelques <kbd>Ctrl</kbd> + <kbd>Z</kbd> (Undo) peuvent régler le problème, mais si le changement est plus ancien, cela peut causer 
+                quelques <KK>Ctrl</KK> + <KK>Z</KK> (Undo) peuvent régler le problème, mais si le changement est plus ancien, cela peut causer 
                 des problèmes. Un autre cas typique est que certains logiciels supportes plusieurs version fonctionnelles d&apos;un logiciel en même 
                 temps. Par exemple, dans plusieurs cas, des logiciels ont une version stable et une version ayant les dernières fonctionnalitées, 
                 mais contenant potentiellement des bogues.

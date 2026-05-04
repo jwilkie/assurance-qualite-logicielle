@@ -1,5 +1,6 @@
-import IC from "@/components/InlineCode";
-import OverflowContainer from "@/components/OverflowContainer";
+import IC from '@/components/InlineCode'
+import KK from '@/components/KeyboardKey'
+import OverflowContainer from '@/components/OverflowContainer'
 
 /**
  * @type {import("next").Metadata}
@@ -39,10 +40,10 @@ export default function Page() {
                 classe ou fichier que vous voulez renommer et faite l&apos;opération suivante:
             </p>
             <p>
-                <kbd>F2</kbd> ou <IC>Clic droit</IC> -&gt; <IC>Rename Symbol</IC>
+                <KK>F2</KK> ou <IC>Clic droit</IC> -&gt; <IC>Rename Symbol</IC>
             </p>
             <p>
-                Vous pourrez ensuite changer le nom et apuuyer sur la touche <kbd>Enter</kbd> pour valider.
+                Vous pourrez ensuite changer le nom et apuuyer sur la touche <KK>Enter</KK> pour valider.
             </p>
         </section>
 
@@ -57,7 +58,7 @@ export default function Page() {
                 votre curseur dans le fichier que vous voulez mettre en forme et faite l&apos;opération suivante:
             </p>
             <p>
-                <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> ou <IC>Clic droit</IC> -&gt; <IC>Format document</IC>
+                <KK>Shift</KK> + <KK>Alt</KK> + <KK>F</KK> ou <IC>Clic droit</IC> -&gt; <IC>Format document</IC>
             </p>
             <p>
                 Le fichier de code devrait automatiquement se mettre en forme.
@@ -72,7 +73,7 @@ export default function Page() {
                 ou sélectionner les lignes que vous voulez commenter et faites l&apos;opération suivante:
             </p>
             <p>
-                <kbd>Ctrl</kbd> + <kbd>É</kbd> ou <IC>Edit</IC> -&gt; <IC>Toggle Line Comment</IC>
+                <KK>Ctrl</KK> + <KK>É</KK> ou <IC>Edit</IC> -&gt; <IC>Toggle Line Comment</IC>
             </p>
             <p>
                 La ligne ou les lignes sélectionnées seront automatiquement commentées. 
@@ -90,13 +91,13 @@ export default function Page() {
                 Visual Studio Code vous permet de déplacer une ou des lignes de code vers le haut ou le bas rapidement. Tout ce que vous devez 
                 faire est de mettre votre curseur sur la ligne à déplacer ou sélectionner les lignes à déplacer et à faire l&apos;opération suivante:
             </p>
+            <div>Pour déplacer la/les lignes vers le haut:</div>
             <p>
-                <div>Pour déplacer la/les lignes vers le haut:</div>
-                <kbd>Alt</kbd> + <kbd>🠕</kbd> ou <IC>Selection</IC> -&gt; <IC>Move Line Up</IC>
+                <KK>Alt</KK> + <KK>🠕</KK> ou <IC>Selection</IC> -&gt; <IC>Move Line Up</IC>
             </p>
+            <div>Pour déplacer la/les lignes vers le bas:</div>
             <p>
-                <div>Pour déplacer la/les lignes vers le bas:</div>
-                <kbd>Alt</kbd> + <kbd>🠗</kbd> ou <IC>Selection</IC> -&gt; <IC>Move Line Down</IC>
+                <KK>Alt</KK> + <KK>🠗</KK> ou <IC>Selection</IC> -&gt; <IC>Move Line Down</IC>
             </p>
             <p>
                 La ou les lignes sélectionnées se déplaceront automatiquement vers le haut ou vers le bas.
@@ -114,17 +115,17 @@ export default function Page() {
                 Dans Visual Studio Code, la boîte de suggestion apparaît automatiquement lorsque l&apos;on tape du code. Dans certain cas, elle ne 
                 s&apos;affichera pas automatiquement ou vous allez vouloir la fermer. Vous pouvez le faire avec les raccourcis claviers suivants:
             </p>
+            <div>Ouvrir la fenêtre de suggestion:</div>
             <p>
-                <div>Ouvrir la fenêtre de suggestion:</div>
-                <kbd>Ctrl</kbd> + <kbd>Space</kbd>
+                <KK>Ctrl</KK> + <KK>Space</KK>
+            </p>
+            <div>Fermer la fenêtre de suggestion:</div>
+            <p>
+                <KK>Esc</KK>
             </p>
             <p>
-                <div>Fermer la fenêtre de suggestion:</div>
-                <kbd>Esc</kbd>
-            </p>
-            <p>
-                Dans la fenêtre de suggestion, vous pouvez utiliser les flèches <kbd>🠕</kbd> ou <kbd>🠗</kbd> pour sélectionner une suggestion 
-                et la touche <kbd>Enter</kbd> pour la valider.
+                Dans la fenêtre de suggestion, vous pouvez utiliser les flèches <KK>🠕</KK> ou <KK>🠗</KK> pour sélectionner une suggestion 
+                et la touche <KK>Enter</KK> pour la valider.
             </p>
         </section>
 
@@ -134,7 +135,7 @@ export default function Page() {
                 Pour de nombreux types de programme, vous pouvez les lancer dans votre éditeur à l&apos;aide de la combinaison de touche suivante:
             </p>
             <p>
-                <kbd>Ctrl</kbd> + <kbd>F5</kbd> ou <IC>Run</IC> -&gt; <IC>Run Without Debugging</IC>
+                <KK>Ctrl</KK> + <KK>F5</KK> ou <IC>Run</IC> -&gt; <IC>Run Without Debugging</IC>
             </p>
             <p>
                 Il y a aussi moyen de lancer le programme avec un débogueur. Le débogueur est un outil puissant que l&apos;on utilisera un peu plus 
@@ -152,27 +153,27 @@ export default function Page() {
                     <tbody>
                         <tr>
                             <td>Démarrer le débogueur</td>
-                            <td><kbd>F5</kbd></td>
+                            <td><KK>F5</KK></td>
                         </tr>
                         <tr>
                             <td>Arrêter le débogueur</td>
-                            <td><kbd>Shift</kbd> + <kbd>F5</kbd></td>
+                            <td><KK>Shift</KK> + <KK>F5</KK></td>
                         </tr>
                         <tr>
                             <td>Ajouter un point d&apos;arrêt sur la ligne du curseur</td>
-                            <td><kbd>F9</kbd></td>
+                            <td><KK>F9</KK></td>
                         </tr>
                         <tr>
                             <td>Exécuter la ligne suivante</td>
-                            <td><kbd>F10</kbd></td>
+                            <td><KK>F10</KK></td>
                         </tr>
                         <tr>
                             <td>Exécuter la ligne à l&apos;intérieur d&apos;une fonction</td>
-                            <td><kbd>F11</kbd></td>
+                            <td><KK>F11</KK></td>
                         </tr>
                         <tr>
                             <td>Laisser le code continuer</td>
-                            <td><kbd>F5</kbd></td>
+                            <td><KK>F5</KK></td>
                         </tr>
                     </tbody>
                 </table>
@@ -190,7 +191,7 @@ export default function Page() {
                 faire les opérations suivantes:
             </p>
             <p>
-                <kbd>Shift</kbd> + <kbd>Alt</kbd> + <IC>Sélectionner du code avec la souris</IC>
+                <KK>Shift</KK> + <KK>Alt</KK> + <IC>Sélectionner du code avec la souris</IC>
             </p>
             <p>
                 Vous verrez que le code sélectionner aura littéralement la forme d&apos;un carrée ou d&apos;un rectangle. Ce genre de sélection peut être 
